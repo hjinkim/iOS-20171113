@@ -60,7 +60,6 @@ print(p.speed)
 
 p.go()
 Car.ho()
-#endif
 
 
 // ?: Optional Type
@@ -91,10 +90,44 @@ class Phone {
     }
 }
 
+#endif
 
-//
+class Phone {
+    
+}
 
-
+class Person {
+    lazy var phone: Phone? = Phone()
+    
+    var firstName: String
+    var lastName: String
+    
+    var fullName: String {
+        set {
+            let arr = newValue.components(separatedBy: " ")
+            firstName = arr[0]
+            lastName = arr[1]
+        }
+        
+        get {
+            return "\(firstName), \(lastName)"
+        }
+    }
+    
+    init(firstName: String, lastName: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+    }
+    
+    init(fullName: String) {
+        var arr = fullName.components(separatedBy: " ")
+        self.firstName = arr[0]
+        self.lastName = arr[1]
+    }
+    
+    
+    
+}
 
 
 
