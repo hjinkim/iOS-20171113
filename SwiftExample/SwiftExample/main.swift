@@ -1,6 +1,8 @@
 //  main.swift
 import Foundation
 
+#if false
+
 // 모든 클래스가 더 이상 NSObject의 자식인 것이 필수가 아닙니다.
 class Car {
     var color: Int = 0
@@ -50,7 +52,6 @@ p.go(speed: 42, color: 100, dest: "Hello")
 
 
 
-#if false
 // var p = Car()
 var p = Car(color: 100, speed: 42)
 
@@ -60,6 +61,55 @@ print(p.speed)
 p.go()
 Car.ho()
 #endif
+
+
+// ?: Optional Type
+//   => null일 수 있다.
+//   C#: Nullable
+//   Java: Optional
+//   Haskell: Maybe
+
+//      Swift    Scala     Javascript ES6
+// 변수:  var      var           let
+// 상수:  let      val           const
+
+// Swift에서 weak의 프로퍼티는 반드시 Optional 타입이어야 합니다.
+class Person {
+    weak var phone: Phone?
+    let name: String = "hello"
+    // let 프로퍼티는 setter가 제공되지 않습니다.
+    
+    fileprivate func foo() {
+        
+    }
+}
+
+class Phone {
+    func goo() {
+        let p = Person()
+        p.foo()
+    }
+}
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

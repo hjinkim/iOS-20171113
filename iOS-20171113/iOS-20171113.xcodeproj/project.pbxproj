@@ -6,6 +6,10 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7A9047871FB9839000F85568 /* 10_약한참조.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9047861FB9839000F85568 /* 10_약한참조.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7A9047371FB9266200F85568 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +29,12 @@
 		7A90474C1FB9317900F85568 /* 2_클래스기본문법.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "2_클래스기본문법.m"; sourceTree = "<group>"; };
 		7A9047631FB93C6300F85568 /* 3_초기화함수.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "3_초기화함수.m"; sourceTree = "<group>"; };
 		7A9047651FB955CA00F85568 /* 4_메소드.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "4_메소드.m"; sourceTree = "<group>"; };
+		7A9047671FB9639800F85568 /* 5_프로퍼티.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "5_프로퍼티.m"; sourceTree = "<group>"; };
+		7A90476A1FB9670C00F85568 /* 6_메모리.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "6_메모리.m"; sourceTree = "<group>"; };
+		7A90476C1FB96D3700F85568 /* 7_AutoReleasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 7_AutoReleasePool.m; sourceTree = "<group>"; };
+		7A9047811FB9774300F85568 /* 8_객체소유권.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "8_객체소유권.m"; sourceTree = "<group>"; };
+		7A9047831FB97F0300F85568 /* 9_객체소유권_ARC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "9_객체소유권_ARC.m"; sourceTree = "<group>"; };
+		7A9047861FB9839000F85568 /* 10_약한참조.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "10_약한참조.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				7A90474C1FB9317900F85568 /* 2_클래스기본문법.m */,
 				7A9047631FB93C6300F85568 /* 3_초기화함수.m */,
 				7A9047651FB955CA00F85568 /* 4_메소드.m */,
+				7A9047671FB9639800F85568 /* 5_프로퍼티.m */,
+				7A90476A1FB9670C00F85568 /* 6_메모리.m */,
+				7A90476C1FB96D3700F85568 /* 7_AutoReleasePool.m */,
+				7A9047811FB9774300F85568 /* 8_객체소유권.m */,
+				7A9047831FB97F0300F85568 /* 9_객체소유권_ARC.m */,
+				7A9047861FB9839000F85568 /* 10_약한참조.m */,
 			);
 			path = "iOS-20171113";
 			sourceTree = "<group>";
@@ -123,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9047871FB9839000F85568 /* 10_약한참조.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +252,7 @@
 		7A9047411FB9266200F85568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -243,6 +261,7 @@
 		7A9047421FB9266200F85568 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
