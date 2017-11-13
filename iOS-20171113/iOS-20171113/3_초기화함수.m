@@ -51,7 +51,7 @@
 //  초기화 메소드를 만드는 방법
 - (instancetype)init {
     printf("init\n");
-    //  1) 부모의 초기화 메소드를 호출해서, self(this)에 대입합니다.
+    //  1) 부모의 '지정' 초기화 메소드를 호출해서, self(this)에 대입합니다.
     self = [super init];
     
     //  2) 부모의 초기화 메소드가 실패하지 않았다면,
