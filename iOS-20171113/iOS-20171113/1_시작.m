@@ -18,13 +18,35 @@
 //     2) 컴파일 속도 => 미리 컴파일된 헤더
 //     3) 사용하지 않는 부분은 자동적으로 제거
 
+// https://github.com/ourguide/iOS-20171113
+
 #import "start.h"
 #import "start.h"
 
 int main()
 {
-    printf("hello, world...\n");
+    // C의 문자열
+    const char* s1 = "Hello, C";
+    printf("%s\n", s1);
+    
+    // ObjC의 문자열 - NSString(클래스)
+    // NS(접두) - 이름 충돌을 막기 위해서
+    //   : 자바(package)
+    //     C++, C#(namespace)
+    NSString* s2 = @"Hello, ObjC";
+    NSLog(@"%@", s2);
+    int n = 42;
+    NSLog(@"%@ %s %d", s2, s1, n);
 }
 
 // Build: Command + B
 // Run:   Command + R
+
+// 20st -    C / C++  / Java   / ObjC
+// 21st -   Go / Rust / Kotlin / Swift
+
+
+
+
+
+

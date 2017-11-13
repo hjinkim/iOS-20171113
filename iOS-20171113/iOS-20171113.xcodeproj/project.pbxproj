@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A9047441FB9269000F85568 /* 1_시작.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9047431FB9269000F85568 /* 1_시작.m */; };
+		7A90474D1FB9317900F85568 /* 2_클래스기본문법.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A90474C1FB9317900F85568 /* 2_클래스기본문법.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		7A9047391FB9266200F85568 /* iOS-20171113 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS-20171113"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9047431FB9269000F85568 /* 1_시작.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "1_시작.m"; sourceTree = "<group>"; };
 		7A9047451FB92C3700F85568 /* start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = start.h; sourceTree = "<group>"; };
+		7A90474C1FB9317900F85568 /* 2_클래스기본문법.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "2_클래스기본문법.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				7A9047431FB9269000F85568 /* 1_시작.m */,
 				7A9047451FB92C3700F85568 /* start.h */,
+				7A90474C1FB9317900F85568 /* 2_클래스기본문법.m */,
 			);
 			path = "iOS-20171113";
 			sourceTree = "<group>";
@@ -121,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9047441FB9269000F85568 /* 1_시작.m in Sources */,
+				7A90474D1FB9317900F85568 /* 2_클래스기본문법.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
