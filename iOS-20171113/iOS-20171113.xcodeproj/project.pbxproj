@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		7A9047641FB93C6300F85568 /* 3_초기화함수.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9047631FB93C6300F85568 /* 3_초기화함수.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		7A9047371FB9266200F85568 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -28,6 +24,7 @@
 		7A9047451FB92C3700F85568 /* start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = start.h; sourceTree = "<group>"; };
 		7A90474C1FB9317900F85568 /* 2_클래스기본문법.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "2_클래스기본문법.m"; sourceTree = "<group>"; };
 		7A9047631FB93C6300F85568 /* 3_초기화함수.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "3_초기화함수.m"; sourceTree = "<group>"; };
+		7A9047651FB955CA00F85568 /* 4_메소드.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "4_메소드.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +61,7 @@
 				7A9047451FB92C3700F85568 /* start.h */,
 				7A90474C1FB9317900F85568 /* 2_클래스기본문법.m */,
 				7A9047631FB93C6300F85568 /* 3_초기화함수.m */,
+				7A9047651FB955CA00F85568 /* 4_메소드.m */,
 			);
 			path = "iOS-20171113";
 			sourceTree = "<group>";
@@ -125,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9047641FB93C6300F85568 /* 3_초기화함수.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
