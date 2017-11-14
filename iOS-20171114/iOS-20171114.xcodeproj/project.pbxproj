@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A9047CB1FBA8F0E00F85568 /* 9_블록프로그래밍.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9047CA1FBA8F0E00F85568 /* 9_블록프로그래밍.m */; };
+		7A9047CD1FBAA4E600F85568 /* 9_블록프로그래밍2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9047CC1FBAA4E600F85568 /* 9_블록프로그래밍2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +33,7 @@
 		7A9047C61FBA816800F85568 /* 7_불변객체.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "7_불변객체.m"; sourceTree = "<group>"; };
 		7A9047C81FBA883700F85568 /* 8_프로토콜.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "8_프로토콜.m"; sourceTree = "<group>"; };
 		7A9047CA1FBA8F0E00F85568 /* 9_블록프로그래밍.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "9_블록프로그래밍.m"; sourceTree = "<group>"; };
+		7A9047CC1FBAA4E600F85568 /* 9_블록프로그래밍2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "9_블록프로그래밍2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 				7A9047C61FBA816800F85568 /* 7_불변객체.m */,
 				7A9047C81FBA883700F85568 /* 8_프로토콜.m */,
 				7A9047CA1FBA8F0E00F85568 /* 9_블록프로그래밍.m */,
+				7A9047CC1FBAA4E600F85568 /* 9_블록프로그래밍2.m */,
 			);
 			path = "iOS-20171114";
 			sourceTree = "<group>";
@@ -135,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9047CB1FBA8F0E00F85568 /* 9_블록프로그래밍.m in Sources */,
+				7A9047CD1FBAA4E600F85568 /* 9_블록프로그래밍2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

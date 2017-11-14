@@ -90,7 +90,6 @@ class Phone {
     }
 }
 
-#endif
 
 class Phone {
     
@@ -129,9 +128,76 @@ class Person {
     
 }
 
+#endif
+
+
+// var가 아닌 let으로 전달됩니다.
+func xswap(_ a:inout Int, _ b:inout Int)
+{
+    let temp = a
+    a = b
+    b = temp
+}
+
+//  for (int i = 0 ; i < n - 1; ++i)
+//    for (int j = i + 1; j < n ; ++j)
+
+// 함수 포인터 / 블록
+//   => 클로저 타입
+// int cmp(int, int)
+// ((Int, Int) -> Int)
+
+func sort(_ x:inout [Int], compare: ((Int, Int) -> Int))
+{
+    let n = x.count
+    
+    for i in 0..<n-1 {
+        for j in i+1..<n {
+            if compare(x[i], x[j]) > 0 {
+                x.swapAt(i, j)
+            }
+        }
+    }
+    
+}
+
+// NSArray : Immutable
+// NSMutableArray: Mutable
+var x = [ 1, 3, 5, 7, 9, 2, 4, 6, 8, 10 ]
+
+sort(&x, compare: { (a: Int, b: Int) in
+    return b - a
+})
+// 1. 파라미터 타입에 대한 부분을 컴파일러가 추론이 가능합니다.
+// 2. 만약 한줄의 코드라면, return을 생략하는 것이 가능합니다.
+sort(&x, compare: { (a, b) in
+    b - a
+})
+// 3. 만약 함수의 인자 중 마지막 인자가 클로저 타입이라면
+//    파라미터 라벨을 생략하는 것이 가능합니다.
+sort(&x) { (a, b) in
+    a - b
+}
+// 4. 인자의 이름이 의미가 없다면, 별도의 키워드를 통해 인자에 접근할 수 있습니다.
+sort(&x) { $1 - $0 }
 
 
 
+
+
+
+
+
+print(x)
+
+
+#if false
+var a: Int = 10
+var b: Int = 20
+
+xswap(&a, &b)
+print("\(a) \(b)")
+#endif
 
 
 
