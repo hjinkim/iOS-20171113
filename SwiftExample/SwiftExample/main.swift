@@ -128,7 +128,6 @@ class Person {
     
 }
 
-#endif
 
 
 // var가 아닌 let으로 전달됩니다.
@@ -198,6 +197,46 @@ var b: Int = 20
 xswap(&a, &b)
 print("\(a) \(b)")
 #endif
+
+#endif
+
+// Swift 에서는 KVO의 기능을 사용하기 위해 별도의 함수를 사용하는 것이 아니라
+// 언어의 기능으로 포함되었습니다.
+
+class Person {
+    var name: String = "Tom" {
+        // 값이 변경되기 이전에 호출되는 구문
+        willSet {
+            print("before - \(name)")
+        }
+        
+        // 값이 변경된 이후에 호출되는 구문
+        didSet {
+            print("after - \(name)")
+        }
+    }
+}
+
+var p = Person()
+p.name = "Bob"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
