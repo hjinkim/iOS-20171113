@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7A90480B1FBACDA500F85568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A90480A1FBACDA500F85568 /* Assets.xcassets */; };
 		7A9048161FBACE0100F85568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9048151FBACE0100F85568 /* AppDelegate.swift */; };
+		7A9048181FBAD62B00F85568 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A9048171FBAD62B00F85568 /* MyView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		7A90480A1FBACDA500F85568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A90480F1FBACDA500F85568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A9048151FBACE0100F85568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A9048171FBAD62B00F85568 /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				7A90480A1FBACDA500F85568 /* Assets.xcassets */,
 				7A90480F1FBACDA500F85568 /* Info.plist */,
 				7A9048151FBACE0100F85568 /* AppDelegate.swift */,
+				7A9048171FBAD62B00F85568 /* MyView.xib */,
 			);
 			path = "SampleApp-Swift";
 			sourceTree = "<group>";
@@ -115,6 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9048181FBAD62B00F85568 /* MyView.xib in Resources */,
 				7A90480B1FBACDA500F85568 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
