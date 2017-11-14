@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A9047A31FBA70C300F85568 /* 4_셀렉터.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9047A21FBA70C300F85568 /* 4_셀렉터.m */; };
+		7A9047C71FBA816800F85568 /* 7_불변객체.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9047C61FBA816800F85568 /* 7_불변객체.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,9 @@
 		7A90479E1FBA69EE00F85568 /* 2_객체생성방법.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "2_객체생성방법.m"; sourceTree = "<group>"; };
 		7A9047A01FBA6D1500F85568 /* 3_Class.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 3_Class.m; sourceTree = "<group>"; };
 		7A9047A21FBA70C300F85568 /* 4_셀렉터.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "4_셀렉터.m"; sourceTree = "<group>"; };
+		7A9047A41FBA786E00F85568 /* 5_타겟액션.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "5_타겟액션.m"; sourceTree = "<group>"; };
+		7A9047C41FBA7E6B00F85568 /* 6_리터럴문법.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "6_리터럴문법.m"; sourceTree = "<group>"; };
+		7A9047C61FBA816800F85568 /* 7_불변객체.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "7_불변객체.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,9 @@
 				7A90479E1FBA69EE00F85568 /* 2_객체생성방법.m */,
 				7A9047A01FBA6D1500F85568 /* 3_Class.m */,
 				7A9047A21FBA70C300F85568 /* 4_셀렉터.m */,
+				7A9047A41FBA786E00F85568 /* 5_타겟액션.m */,
+				7A9047C41FBA7E6B00F85568 /* 6_리터럴문법.m */,
+				7A9047C61FBA816800F85568 /* 7_불변객체.m */,
 			);
 			path = "iOS-20171114";
 			sourceTree = "<group>";
@@ -125,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9047A31FBA70C300F85568 /* 4_셀렉터.m in Sources */,
+				7A9047C71FBA816800F85568 /* 7_불변객체.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
